@@ -188,6 +188,86 @@
       .primary {
         background: #feb062;
       }
+      /*HEADING SECTION*/
+      .heading-section {
+      }
+      .heading-section h2 {
+        color: #000000;
+        font-size: 28px;
+        margin-top: 0;
+        line-height: 1.4;
+        font-weight: 400;
+      }
+      .heading-section .subheading {
+        margin-bottom: 20px !important;
+        display: inline-block;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: rgba(0, 0, 0, 0.4);
+        position: relative;
+      }
+      .heading-section .subheading::after {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -10px;
+        content: "";
+        width: 100%;
+        height: 2px;
+        background: #feb062;
+        margin: 0 auto;
+      }
+
+      .heading-section-white {
+        color: rgba(255, 255, 255, 0.8);
+      }
+      .heading-section-white h2 {
+        font-family: "Lato", sans-serif;
+        line-height: 1;
+        padding-bottom: 0;
+      }
+      .heading-section-white h2 {
+        color: #ffffff;
+      }
+      .heading-section-white .subheading {
+        margin-bottom: 0;
+        display: inline-block;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: rgba(255, 255, 255, 0.4);
+      }
+      /*SERVICES*/
+      .text-services {
+        padding: 10px 10px 0;
+        text-align: center;
+      }
+      .text-services h3 {
+        font-size: 18px;
+        font-weight: 400;
+      }
+      /*PROPETIES*/
+      .properties {
+      }
+      .text-properties {
+        padding: 10px 0;
+        text-align: center;
+        border: 1px solid rgba(0, 0, 0, 0.08);
+        border-top: none;
+      }
+      .text-properties h3 {
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 0;
+      }
+      .text-properties .meta {
+        margin-top: 0;
+      }
+      .text-properties .price {
+        color: #000;
+        font-size: 18px;
+      }
     </style>
   </head>
   <body width="100%">
@@ -306,16 +386,319 @@
         </tr>
         <!-- END intro row  -->
 
-        <!-- Intro-2 row  -->
+        <!-- our-services row  -->
         <tr>
-            <td class="bg_light email-section">
-                <div class="heading-section">
-                    
-                </div>
-            </td>
-
+          <td class="bg_light email-section">
+            <div
+              class="heading-section"
+              style="text-align: center; padding: 0 30px"
+            >
+              <h2>Our Services</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deleniti hic saepe temporibus iste itaque
+              </p>
+            </div>
+            <table
+              role="presentation"
+              border="0"
+              cellpadding="0"
+              cellspacing="0"
+              width="100%"
+            >
+              <tr>
+                <td
+                  valign="top"
+                  width="50%"
+                  style="padding-top: 20px"
+                  class="Services"
+                >
+                  <table
+                    role="presentation"
+                    cellspacing="0"
+                    cellpadding="0"
+                    border="0"
+                    width="100%"
+                  >
+                    <tr>
+                      <td class="icon">
+                        <img
+                          src="./images/blueprint.png"
+                          alt="icon-blueprint"
+                          style="
+                            width: 100px;
+                            max-width: 600px;
+                            height: auto;
+                            margin: auto;
+                            display: block;
+                          "
+                        />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="text-services">
+                        <h3>Layout</h3>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Ad, maxime!
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td
+                  valign="top"
+                  width="50%"
+                  style="padding-top: 20px"
+                  class="services"
+                >
+                  <table
+                    role="presentation"
+                    cellspacing="0"
+                    cellpadding="0"
+                    border="0"
+                    width="100%"
+                  >
+                    <tr>
+                      <td class="icon">
+                        <img
+                          src="./images/skyline.png"
+                          alt="icon-skyline"
+                          style="
+                            width: 100px;
+                            max-width: 600px;
+                            height: auto;
+                            margin: auto;
+                            display: block;
+                          "
+                        />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="text-services">
+                        <h3>Design</h3>
+                        <p>
+                          Lorem ipsum dolor sit, amet consectetur adipisicing
+                          elit. Recusandae, laborum!
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
         </tr>
-        <!-- END Intro-2 row  -->
+        <!-- END our-services row  -->
+
+        <!-- propertiy row  -->
+        <tr>
+          <td class="bg_white email-section">
+            <div
+              class="heading-section"
+              style="text-align: center; padding: 0 30px"
+            >
+              <h2>Properties For Sale</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+                blanditiis ad cum quod quam?
+              </p>
+            </div>
+            <table
+              role="presentation"
+              border="0"
+              cellpadding="0"
+              cellspacing="0"
+              width="100%"
+            >
+              <tr>
+                <td
+                  valign="top"
+                  width="50%"
+                  style="padding-top: 20px; padding-right: 10px"
+                  class="services"
+                >
+                  <table
+                    role="presentation"
+                    cellspacing="0"
+                    cellpadding="0"
+                    border="0"
+                    width="100%"
+                  >
+                    <tr>
+                      <td>
+                        <img
+                          src="./images/properties-1.jpg"
+                          alt="properties-1"
+                          style="
+                            width: 100%;
+                            max-width: 600px;
+                            height: auto;
+                            margin: auto;
+                            display: block;
+                          "
+                        />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="text-properties">
+                        <h3>Residential House</h3>
+                        <p class="meta">
+                          <span>100 spft</span>
+                          <span>2 Bed</span>
+                          <span>2 Bath</span>
+                        </p>
+                        <span class="price">$1,000,000</span>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Vitae, fuga.
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td
+                  valign="top"
+                  width="50%"
+                  style="padding-top: 20px; padding-left: 10px"
+                  class="services"
+                >
+                  <table
+                    role="presentation"
+                    cellspacing="0"
+                    cellpadding="0"
+                    border="0"
+                    width="100%"
+                  >
+                    <tr>
+                      <td>
+                        <img
+                          src="./images/properties-2.jpg"
+                          alt="properties-2"
+                          style="
+                            width: 100%;
+                            max-width: 600px;
+                            height: auto;
+                            margin: auto;
+                            display: block;
+                          "
+                        />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="text-properties">
+                        <h3>Residential House</h3>
+                        <p class="meta">
+                          <span>100 spft</span>
+                          <span>2 Bed</span>
+                          <span>2 Bath</span>
+                        </p>
+                        <span class="price">$1,000,000</span>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Vitae, fuga.
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td
+                  valign="top"
+                  width="50%"
+                  style="padding-top: 20px; padding-right: 10px"
+                  class="services"
+                >
+                  <table
+                    role="presentation"
+                    cellspacing="0"
+                    cellpadding="0"
+                    border="0"
+                    width="100%"
+                  >
+                    <tr>
+                      <td>
+                        <img
+                          src="./images/properties-3.jpg"
+                          alt="properties-3"
+                          style="
+                            width: 100%;
+                            max-width: 600px;
+                            height: auto;
+                            margin: auto;
+                            display: block;
+                          "
+                        />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="text-properties">
+                        <h3>Residential House</h3>
+                        <p class="meta">
+                          <span>100 spft</span>
+                          <span>2 Bed</span>
+                          <span>2 Bath</span>
+                        </p>
+                        <span class="price">$1,000,000</span>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Vitae, fuga.
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td
+                  valign="top"
+                  width="50%"
+                  style="padding-top: 20px; padding-left: 10px"
+                  class="services"
+                >
+                  <table
+                    role="presentation"
+                    cellspacing="0"
+                    cellpadding="0"
+                    border="0"
+                    width="100%"
+                  >
+                    <tr>
+                      <td>
+                        <img
+                          src="./images/properties-4.jpg"
+                          alt="properties-4"
+                          style="
+                            width: 100%;
+                            max-width: 600px;
+                            height: auto;
+                            margin: auto;
+                            display: block;
+                          "
+                        />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="text-properties">
+                        <h3>Residential House</h3>
+                        <p class="meta">
+                          <span>100 spft</span>
+                          <span>2 Bed</span>
+                          <span>2 Bath</span>
+                        </p>
+                        <span class="price">$1,000,000</span>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Vitae, fuga.
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- END propertiy row  -->
       </table>
     </div>
   </body>
